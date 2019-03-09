@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Environment Notes
+
+1. We use `npm`.
+1. Use `npm ci` to install the packges for the first time.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +71,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Precommit Hook
+Currently we're using 
+  1. [husky](https://github.com/typicode/husky) to add precommit hooks support.
+  1. [lint-staged](https://github.com/okonet/lint-staged) to run different linters on staged files only.
+
+### Providing Environment Variables
+
+There's `.env` file included with default values. To override it for different environments, refer to this section: https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables#what-other-env-files-can-be-used
+
+_**Avoid loading `.env` file as enviroment variables. React already loads this file, just provide a proper `.env.*` file or environment variables**_
