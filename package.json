@@ -45,6 +45,7 @@
     "customize-cra": "^0.2.12",
     "eslint-plugin-emotion": "^10.0.7",
     "eslint-plugin-prettier": "^3.0.1",
+    "imagemin-lint-staged": "^0.4.0",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
     "react-app-rewired": "^2.1.0"
